@@ -11,3 +11,5 @@ D:\react\express_crash_course>git push -u origin master
 
 D:\react\express_crash_course>npm init -y
 D:\react\express_crash_course>npm i express
+
+D:\react\express_crash_course>node index
