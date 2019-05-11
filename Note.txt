@@ -4,3 +4,10 @@ https://github.com/bradtraversy/express_crash_course
 
 
 D:\react\express_crash_course>git init
+D:\react\express_crash_course>git remote add origin git@github.com:Annie-Huang/express_crash_course.git
+D:\react\express_crash_course>git add .
+D:\react\express_crash_course>git commit
+D:\react\express_crash_course>git push -u origin master
+
+D:\react\express_crash_course>npm init -y
+D:\react\express_crash_course>npm i express
