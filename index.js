@@ -23,7 +23,9 @@ app.use(express.urlencoded({ extends: false }));
 
 // Option 1
 // Homepage Route
-app.get('/', (req, res) => res.render('index'));
+app.get('/', (req, res) => res.render('index', {
+    title: 'Member App'
+}));
 
 // // Gets All Members
 // app.get('/api/members', (req, res) => res.json(members));
