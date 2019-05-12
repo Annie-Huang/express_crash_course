@@ -1,7 +1,7 @@
 https://expressjs.com/en/4x/api.html
 
 https://github.com/bradtraversy/express_crash_course
-
+https://github.com/ericf/express-handlebars
 
 D:\react\express_crash_course>git init
 D:\react\express_crash_course>git remote add origin git@github.com:Annie-Huang/express_crash_course.git
@@ -17,3 +17,4 @@ D:\react\express_crash_course>npm i -D nodemon
 
 D:\react\express_crash_course>npm i moment
 D:\react\express_crash_course>npm i uuid
+D:\react\express_crash_course>npm i express-handlebars

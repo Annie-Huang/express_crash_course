@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Annie-Huang/express_crash_course#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
     "moment": "^2.24.0",
     "uuid": "^3.3.2"
   },
