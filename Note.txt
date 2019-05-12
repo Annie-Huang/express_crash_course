@@ -3,6 +3,7 @@ https://expressjs.com/en/4x/api.html
 https://github.com/bradtraversy/express_crash_course
 https://github.com/ericf/express-handlebars
 https://getbootstrap.com/docs/4.3/getting-started/introduction/
+http://www.passportjs.org/packages/
 
 D:\react\express_crash_course>git init
 D:\react\express_crash_course>git remote add origin git@github.com:Annie-Huang/express_crash_course.git
@@ -20,3 +21,6 @@ D:\react\express_crash_course>npm i moment
 D:\react\express_crash_course>npm i uuid
 D:\react\express_crash_course>npm i express-handlebars
 http://localhost:5000/
+
+If you use express to build json api, then you will mostly add jwt to pass forward and backward between api and front end app
+If you use express to build template webpage, then you will mostly likely add machanisism of adding authentication, e.g. add 3rd party library like passpord
