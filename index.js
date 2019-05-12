@@ -12,6 +12,10 @@ const app = express();
 // // Init middleware
 // app.use(logger);
 
+// Body Parser Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extends: false }));
+
 // // Gets All Members
 // app.get('/api/members', (req, res) => res.json(members));
 //
@@ -33,6 +37,7 @@ const app = express();
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Members API Routes
 app.use('/api/members', require('./routes/api/members'));
 
 const PORT = process.env.PORT || 5000;
