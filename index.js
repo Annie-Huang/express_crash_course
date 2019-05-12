@@ -21,6 +21,10 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extends: false }));
 
+// Option 1
+// Homepage Route
+app.get('/', (req, res) => res.render('index'));
+
 // // Gets All Members
 // app.get('/api/members', (req, res) => res.json(members));
 //
@@ -39,6 +43,7 @@ app.use(express.urlencoded({ extends: false }));
 //
 // });
 
+// Option 2. If this is move above option 1, you will see it serve the public folder, not the views folder
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
