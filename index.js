@@ -28,6 +28,9 @@ app.get('/', (req, res) => res.render('index', {
     title: 'Member App',
     members
 }));
+// Once you enter name and email and click 'Add Member' from http://localhost:5000/ (\views\index.handlebars),
+// it will call routes\api\members.js's router.post method.
+
 
 // // Gets All Members
 // app.get('/api/members', (req, res) => res.json(members));
