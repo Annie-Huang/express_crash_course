@@ -38,7 +38,10 @@ router.post('/', (req, res) => {
 
     // Syntax for mongodb: members.save(newMemeber);
     members.push(newMember);
-    res.json(members);
+    // res.json(members);
+
+    // If you deal with template, you will usually redirect
+    res.redirect('/');
 });
 
 // Update Member
